@@ -18,7 +18,7 @@
 	</div>
 </div>
 
-<!-- Bottom Section -->
+
 <div class="content-section">
 	<div class="image-container">
 		<img src="img/image25.png"
