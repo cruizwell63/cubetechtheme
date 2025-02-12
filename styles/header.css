@@ -5,9 +5,9 @@ CubeTech Theme
 */
 
 body{
-    margin: 1.5em;
     font-family: Arial, sans-serif;
     font-size: 1em;
+    margin: 0px;
 }
 
 .navbar{
@@ -17,21 +17,22 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    left: 6%;
+    left: 12%;
     width: 100%;
-    max-width: 1272px;
+    max-width: 1000px;
     background-color: #ffffff;
     height: 50px;
     padding: 0 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    z-index: 1000;
     
 }
 
 .navbar select{
     border: none;
     background-color: #ffffff;
-    font-size: 1em;
+    font-size: 0.7em;
     margin-left: 30px;
     color: #7B809A;
     padding: 10px;
@@ -43,12 +44,13 @@ body{
     color: #7B809A;
     margin-left: 30px;
     padding: 10px;
+    font-size: 0.7em;
 }
 
 .navbar button{
     background-color: #1591EA;
     color: #ffffff;
-    font-size: 1em;
+    font-size: 0.7em;
     border-style: none;
     border-radius: 8px;
     padding: 10px 6px;
@@ -68,7 +70,7 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    margin-right: 31%;
+    margin-right: auto;
 }
 
 .logo img{

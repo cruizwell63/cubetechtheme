@@ -14,5 +14,6 @@ add_action('wp_enqueue_scripts', 'load_css');
 
 function themeblocks_blockone_block_init() {
 	register_block_type( __DIR__ . '/build/blockone' );
+    register_block_type( __DIR__ . '/build/blocktwo' );
 }
 add_action( 'init', 'themeblocks_blockone_block_init' );

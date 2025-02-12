@@ -1,12 +1,90 @@
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
-
-.wp-block-themeblocks-blockone {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+.block-one{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 930px;
+	width: 100%;
+	background-color: #FAFAFA;
 }
+
+
+.container{
+	margin-left: auto;
+	width: 800px;
+	height: 850px;
+}
+
+.container img{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	background-color: #FAFAFA;
+}
+
+.card{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(20px);
+	height: 300px;
+	width: 600px;
+	border-radius: 12px;
+	z-index: 1;
+	margin-top: 8%;
+	left: 37%;
+	box-shadow: #97ACC640 0px 0px 10px 0px;
+	overflow: hidden;
+	padding: 10px;
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.card h2, h3, p{
+	font-family: 'Roboto', sans-serif;
+}
+
+.card h3{
+	color: #1591EA;
+}
+
+.card h2{
+	color: #344767;
+}
+
+.card p{
+	color: #344767;
+}
+
+.card-text{
+	width: 480px;
+	margin-left: 50px;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.card-buttons{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+#contact-us-btn{
+	width: 100px;
+	height: 30px;
+	background-color: #1591EA;
+	color: #ffffff;
+	border-radius: 20px;
+	border: none;
+	box-shadow: #DC22655C 0px 1px 0px 0px;
+	margin-right: 10px;
+}
+#read-more-btn{
+	width: 100px;
+	height: 30px;
+	background: none;
+	color: #7B809A;
+	border-radius: 20px;
+	box-shadow: #7B809A 0px 0px 0px 1px;
+	border: none;
+}
+
+@media screen and (max-width: 768px) {
+}
+

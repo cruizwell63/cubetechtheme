@@ -1,0 +1,1 @@
+{"version":3,"file":"blocktwo/style-index.css","mappings":";;;AAAA;EACC;EACA;AACD,C","sources":["webpack://blockone/./src/blocktwo/style.scss"],"sourcesContent":[".block-two{\n\tdisplay: block;\n\tposition: relative;\n}"],"names":[],"sourceRoot":""}

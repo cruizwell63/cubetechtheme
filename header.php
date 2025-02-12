@@ -8,7 +8,7 @@
         <div class="navbar">
         <div class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/cubetechlogo.jpg" alt="logo">
-    <span class="company-name">CubeTech Innovation</span>
+    <span class="company-name">CubeTech Innovations</span>
 </div>
 
 
