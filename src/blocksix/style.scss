@@ -1,0 +1,55 @@
+.block-six {
+	display: block;
+	position: relative;
+  }
+  
+  .contact-section {
+	padding: 4rem 2rem;
+	text-align: center;
+	background: #f8f9fa;
+  }
+  
+  .contact-form {
+	max-width: 600px;
+	margin: 2rem auto;
+  }
+  
+  .form-group {
+	margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	outline: none;
+	background: #f8f8f8;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+  }
+  
+  .row {
+	display: flex;
+	gap: 10px;
+  }
+  
+  .row .form-control {
+	flex: 1;
+  }
+  
+  .btn-primary {
+	display: inline-block;
+	width: 155px;
+	padding: 10px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #23a9ca;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 5px #999;
+  }
