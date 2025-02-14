@@ -1,36 +1,45 @@
 /*!************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocktwo/style.scss ***!
   \************************************************************************************************************************************************************************************************************************************************/
-.block-two {
+.block-three {
   display: block;
   position: relative;
 }
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  margin-bottom: 4rem;
-  text-align: center;
+
+
+.button-primary {
+  display: inline-block;
+  width: 135px;
+  padding: 15px 25px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align:center; 
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #23a9ca;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.stat-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.stat-value {
+.btn-link {
   color: #2563eb;
-  font-weight: bold;
-  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.stat-label {
-  color: #4b5563;
-  font-size: 0.875rem;
-  line-height: 1.4;
+.btn-link:hover {
+  color: #1d4ed8;
+}
+.button-primary:hover {
+  background-color: #199cbd
 }
 
+.button-primary:active {
+  background-color: #23b2d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
-
-/*# sourceMappingURL=style-index.css.map*/
+/*#sourceMappingURL=style-index.css.map*/

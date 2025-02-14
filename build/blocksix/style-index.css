@@ -1,36 +1,48 @@
 /*!************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocktwo/style.scss ***!
   \************************************************************************************************************************************************************************************************************************************************/
-.block-two {
+.block-six   {
   display: block;
   position: relative;
 }
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  margin-bottom: 4rem;
+.contact-section {
+  padding: 4rem 2rem;
   text-align: center;
+  background: #f8f9fa;
 }
 
-.stat-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
 }
 
-.stat-value {
-  color: #2563eb;
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  width: 155px;
+  padding: 10px 20px;
+  font-size: 15px;
   font-weight: bold;
-  font-size: 1.5rem;
+  cursor: pointer;
+  text-align:center; 
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #23a9ca;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
 }
-
-.stat-label {
-  color: #4b5563;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
-
 
 /*# sourceMappingURL=style-index.css.map*/
