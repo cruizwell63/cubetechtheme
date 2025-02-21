@@ -1,0 +1,22 @@
+h1 {
+    background: linear-gradient(to top, hsla(196, 100%, 48%, 1), hsla(205, 84%, 50%, 1));
+    color: white;
+    padding: 1rem;
+    width: 95%;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    font-size: large;
+    position: relative;
+    z-index: 2;
+}
+
+.generator-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    margin-top: -1.5rem;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 600px;
+}
