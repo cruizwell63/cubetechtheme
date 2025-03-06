@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.footer-container{
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: rgba(111, 110, 110, 0.581);
+    min-height: 190px;
+    padding: 0;
+}
+
+.left-pane{
+    z-index: 2;
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.left-pane p{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    color: #344767;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+#footer-bg-img{
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    z-index: 1;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    padding-left: 5px;
+}
+
+.social-media-container a{
+    margin-right: 10%;
+}
+
+.email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.email-container input{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 160px;   
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 0px 1px rgba(52, 71, 103, 1);
+    margin-right: 15px;
+}
+
+.email-container input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: rgba(106, 104, 104, 1);
+    text-align: start;
+    padding-left: 5px;
+}
+
+.email-container button{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: #1591EA;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .6em;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 0px 0px 1px rgba(150, 149, 149, 0.6);
+    cursor: pointer;
+}
+
+.footer-links{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 100px;
+    padding-left: 50px;
+}
+
+.Company, .Products, .Services{
+    display: grid;
+    place-items: start;
+    width: 33%;
+    text-align: start;
+    height: 100px;
+    font-size: .8em;
+    color: #344767;
+    font-weight: 500;
+    z-index: 4;
+}
+
+.Company a:hover, .Products a:hover, .Services a:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+

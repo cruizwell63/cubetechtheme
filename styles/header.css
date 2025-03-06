@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    left: 12%;
+    left: 13.5%;
     width: 100%;
     max-width: 1000px;
     background-color: #ffffff;
@@ -97,5 +97,6 @@ body{
         padding: 5px 10px;
     }
 }
+
 
 

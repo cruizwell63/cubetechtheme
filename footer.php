@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Barcode Generator</title>
-    <link rel="stylesheet" href="styles/footer.css">
-
-</head>
-    <footer>
-        <div class="container footer-grid">
+<div class="footer-container">
+    <div class="footer-grid">
             <div class="brand">
                 <p>CubeTech Innovations © 2024</p>
                 <div class="social-links">
@@ -43,5 +33,11 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+<?php
+wp_enqueue_style('footer-style', get_template_directory_uri() . '/styles/footer.css', array(), '1.0', 'all');
+?>
+
+<?php wp_footer(); ?>
+</body>
 </html>

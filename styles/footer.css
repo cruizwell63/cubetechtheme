@@ -1,13 +1,16 @@
-footer {
-    background-color: #f0f0f0;
-    padding: 3rem 0;
-    margin-top: 4rem;
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    background-color: #d4d2d2;
+
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 4rem;
+    padding: 50px;
 }
 
 .brand {

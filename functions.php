@@ -8,8 +8,8 @@ function dynamic_title(){
 add_action('after_setup_theme', 'dynamic_title');
 
 function load_css(){
-    wp_enqueue_style('theme-style', get_stylesheet_directory_uri().'/styles/header.css');
-}
+    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/styles/header.css');
+    }
 add_action('wp_enqueue_scripts', 'load_css');
 
 function themeblocks_blockone_block_init() {

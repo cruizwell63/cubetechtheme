@@ -5,6 +5,7 @@
   display: block;
   position: relative;
 }
+
 .stats-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -30,7 +31,5 @@
   font-size: 0.875rem;
   line-height: 1.4;
 }
-
-
 
 /*# sourceMappingURL=style-index.css.map*/
