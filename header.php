@@ -12,12 +12,12 @@
             <span class="company-name">CubeTech Innovations</span>
         </div>
 
-
         <div class="menu">
         <select onchange="location = this.value;">
             <option disabled selected>Services</option>
-            <option value="<?php echo esc_url(home_url('/sample-page')); ?>">Service1</option>
-            <option value="<?php echo esc_url(home_url('/this-is-a-new-page')); ?>">Service2</option>
+            <option value="<?php echo esc_url(home_url('/sample-page')); ?>">Barcode Generator</option>
+            <option value="<?php echo esc_url(home_url('/this-is-a-new-page')); ?>">QR Code Generator</option>
+            <option value="<?php echo esc_url(home_url('/this-is-a-new-page')); ?>">Job Search</option>
         </select>
 
         <select onchange="location = this.value;">

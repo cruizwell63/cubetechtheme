@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			This is the secondblock
+			SecondBlock
 		</p>
 	);
 }

@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			BlockFive
+			Product First Container
 		</p>
 	);
 }

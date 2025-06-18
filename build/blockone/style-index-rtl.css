@@ -4,24 +4,28 @@
 .block-one {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 930px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
   width: 100%;
   background-color: #FAFAFA;
+  position: relative;
 }
 
 .container {
-  margin-right: auto;
   width: 800px;
-  height: 850px;
+  max-width: 100%;
+  height: auto;
 }
 
 .container img {
   width: 100%;
-  height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #FAFAFA;
+  border-radius: 10px;
 }
 
 .card {
@@ -29,63 +33,77 @@
   background-color: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
-  height: 300px;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   border-radius: 12px;
   z-index: 1;
-  margin-top: 8%;
-  right: 37%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
   box-shadow: rgba(151, 172, 198, 0.2509803922) 0px 0px 10px 0px;
-  overflow: hidden;
-  padding: 10px;
-  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
 }
 
-.card h2, h3, p {
+.card h2, .card h3, .card p {
   font-family: "Roboto", sans-serif;
 }
 
 .card h3 {
   color: #1591EA;
+  margin: 10px 0;
 }
 
 .card h2 {
   color: #344767;
+  margin: 10px 0;
 }
 
 .card p {
   color: #344767;
+  text-align: justify;
+  margin: 10px 0;
 }
 
 .card-text {
-  width: 480px;
-  margin-right: 50px;
-  margin-top: 30px;
-  text-align: justify;
+  margin-bottom: 20px;
 }
 
 .card-buttons {
-  margin-right: 50px;
-  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#contact-us-btn,
+#read-more-btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 #contact-us-btn {
-  width: 100px;
-  height: 30px;
   background-color: #1591EA;
   color: #ffffff;
-  border-radius: 20px;
   border: none;
   box-shadow: rgba(220, 34, 101, 0.3607843137) 0px 1px 0px 0px;
-  margin-left: 10px;
 }
 
 #read-more-btn {
-  width: 100px;
-  height: 30px;
   background: none;
   color: #7B809A;
-  border-radius: 20px;
-  box-shadow: #7B809A 0px 0px 0px 1px;
-  border: none;
+  border: 1px solid #7B809A;
+}
+
+@media screen and (max-width: 768px) {
+  .block-one {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .card {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
 }

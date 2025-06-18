@@ -1,4 +1,4 @@
-<div class="blockthree">
+<div class="blockfive">
 	<div class="box-container">
 		<div class="title">
 			<p><b>Experience it firsthand and discover true value</b></p>
