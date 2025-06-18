@@ -1,15 +1,15 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "themeblocks/blockfive",
+	"name": "themeblocks/barcodegeneratorblockone",
 	"version": "0.1.0",
-	"title": "blockfive",
+	"title": "Block Barcode GenOne",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"html": false
+	"html": false
 	},
 	"textdomain": "blockone",
 	"editorScript": "file:./index.js",
